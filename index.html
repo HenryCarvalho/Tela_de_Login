@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="close-btn" aria-label="Fechar">&times;</div>
+            <h2>Login</h2>
+            <form>
+                <div class="input-group email-group">
+                    <div class="email-container">
+                        <span class="icon-email" aria-hidden="true">📧</span>
+                        <input type="email" id="email" placeholder="Email" required aria-label="Digite seu e-mail">
+                    </div>
+                </div>
+                <div class="input-group password-group">
+                    <div class="password-container">
+                        <input type="password" id="password" placeholder="Password" required aria-label="Digite sua senha">
+                        <div id="togglePassword" role="button" aria-label="Mostrar ou ocultar senha">
+                            <i class="eye-icon" id="eyeIcon">🔑👁️</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="options">
+                    <label><input type="checkbox" aria-label="Lembre-me"> Lembre-me</label>
+                    <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+            <p class="register">Não tem uma conta? <a href="#">Register</a></p>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
