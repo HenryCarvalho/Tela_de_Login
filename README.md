@@ -40,7 +40,7 @@ A funcionalidade em JavaScript (linkada como `script.js`) inclui:
 
 1. Clone o repositório:
 
-``` git clone https://github.com/seunome/login-page.git ```
+``` git clone https://github.com/HenryCarvalho/Tela_de_Login.git ```
 2. Navegue até a pasta do projeto:
 
 ``` cd login-page ```
